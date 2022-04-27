@@ -1,5 +1,5 @@
 script_name("rIIven")
-script_version(2.00)
+script_version(3.00)
 
 local imgui, ffi = require 'mimgui', require 'ffi'
 local new, str = imgui.new, ffi.string
@@ -107,7 +107,7 @@ function myHandler(message) --send
         connectedUser = message:match('userConnected (.+)')
         if not userList:find(connectedUser) then userList = userList..'\n'..connectedUser end
     else
-        sampAddChatMessage('Enviado ao jogador: '..message, -1)
+        sampAddChatMessage('Enviado ao jogadorr: '..message, -1)
     end
 end
 
