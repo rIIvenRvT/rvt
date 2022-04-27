@@ -1,5 +1,5 @@
 script_name("rIIven")
-script_version(1.00)
+script_version(2.00)
 
 local imgui, ffi = require 'mimgui', require 'ffi'
 local new, str = imgui.new, ffi.string
@@ -29,7 +29,7 @@ local menu = {
     u8'Troller',
     u8'Teleportes',
     u8'Veiculos',
-    u8'Jogadoreees',
+    u8'Jogadoreeesrrr',
 }
 
 function main()
