@@ -1,5 +1,5 @@
 script_name("rIIven")
-script_version("1.5")
+script_version("2")
 require 'lib.moonloader'
 
 local imgui, ffi = require 'mimgui', require 'ffi'
