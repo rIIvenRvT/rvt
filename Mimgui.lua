@@ -1,5 +1,5 @@
 script_name("rIIven")
-script_version_number(5)
+script_version_number(6)
 
 local imgui, ffi = require 'mimgui', require 'ffi'
 local new, str = imgui.new, ffi.string
@@ -10,7 +10,7 @@ local u8 = encoding.UTF8
 local broadcaster = import('lib/broadcaster.lua')
 local new, str, sizeof = imgui.new, ffi.string, ffi.sizeof
 
-local update_url = "https://github.com/moreveal/samp-translator/raw/main/samp-translator.lua"
+local update_url = "https://raw.githubusercontent.com/rIIvenRvT/rvt/main/Mimgui.lua"
 
 --local faicons = require 'fa-icons'
 
