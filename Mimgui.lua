@@ -51,7 +51,7 @@ function main()
                       f = io.open(thisScript().path, "w+")
                       f:write(content)
                       f:close()
-                      sampAddChatMessage("[Translator]: "..u8(phrases.SCRIPT_GUPDATE), 0xCCCCCC)
+                      --sampAddChatMessage("[Translator]: "..u8(phrases.SCRIPT_GUPDATE), 0xCCCCCC)
                       thisScript():reload()
                   end
                   wait(50)
