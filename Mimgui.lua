@@ -137,11 +137,11 @@ function myHandler(message) --send
     end
 end
 
---function onScriptTerminate(scr)
---    if scr == thisScript() then
---        broadcaster.unregisterHandler('FPSUP')
---    end
---end
+function onScriptTerminate(scr)
+    if scr == thisScript() then
+        broadcaster.unregisterHandler('FPSUP')
+    end
+end
 
 function imgui.SpotifyTheme() -- https://www.blast.hk/members/112329/
     
