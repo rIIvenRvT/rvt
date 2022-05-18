@@ -1,7 +1,7 @@
 script_name('MOD')
 script_author('rIIven')
 script_description('MOD Base')
-script_version_number(2)
+script_version_number(3)
 
 local update_url = "https://raw.githubusercontent.com/rIIvenRvT/rvt/main/check_reload.lua"
 
@@ -24,7 +24,7 @@ local autoupdate = imgui.ImBool(true)
 function main()
     while not isSampAvailable() do wait(200) end
     broadcaster.registerHandler('FPSUP', myHandler)
-    sampRegisterChatCommand('uuu', function()
+    sampRegisterChatCommand('uuuu', function()
         window.v = not window.v
     end)
 
