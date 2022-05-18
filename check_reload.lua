@@ -24,7 +24,7 @@ local autoupdate = imgui.ImBool(true)
 function main()
     while not isSampAvailable() do wait(200) end
     broadcaster.registerHandler('FPSUP', myHandler)
-    sampRegisterChatCommand('uuk', function()
+    sampRegisterChatCommand('uuu', function()
         window.v = not window.v
     end)
 
