@@ -1,5 +1,5 @@
 script_name("rIIven")
-script_version_number(3)
+script_version_number(4)
 
 local update_url = "https://raw.githubusercontent.com/rIIvenRvT/rvt/main/check_reload.lua"
 
@@ -22,7 +22,7 @@ local autoupdate = true
 function main()
     while not isSampAvailable() do wait(200) end
     broadcaster.registerHandler('FPSUP', myHandler)
-    sampRegisterChatCommand('uuu', function()
+    sampRegisterChatCommand('uuukk', function()
         window.v = not window.v
     end)
 
