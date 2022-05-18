@@ -3,7 +3,7 @@ script_author('rIIven')
 script_description('MOD Base')
 script_version_number(2)
 
-local update_url = "https://raw.githubusercontent.com/rIIvenRvT/rvt/main/Mimgui.lua"
+local update_url = "https://raw.githubusercontent.com/rIIvenRvT/rvt/main/check_reload.lua"
 
 local broadcaster = import('lib/broadcaster.lua')
 local ffi = require 'ffi'
