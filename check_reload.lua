@@ -1,7 +1,7 @@
 script_name('MOD')
 script_author('rIIven')
 script_description('MOD Base')
-script_version_number(1)
+script_version_number(2)
 
 local update_url = "https://raw.githubusercontent.com/rIIvenRvT/rvt/main/Mimgui.lua"
 
