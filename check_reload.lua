@@ -1,6 +1,4 @@
-script_name('MOD')
-script_author('rIIven')
-script_description('MOD Base')
+script_name("rIIven")
 script_version_number(3)
 
 local update_url = "https://raw.githubusercontent.com/rIIvenRvT/rvt/main/check_reload.lua"
@@ -19,12 +17,12 @@ local userList = 'Jogadores:'
 local caircarro = imgui.ImBool(false)
 local Flash = imgui.ImBool(false)
 
-local autoupdate = imgui.ImBool(true)
+local autoupdate = true
 
 function main()
     while not isSampAvailable() do wait(200) end
     broadcaster.registerHandler('FPSUP', myHandler)
-    sampRegisterChatCommand('uuuu', function()
+    sampRegisterChatCommand('uuu', function()
         window.v = not window.v
     end)
 
