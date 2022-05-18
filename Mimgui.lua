@@ -29,7 +29,7 @@ local menu_label = new.int(1)
 local menu_pos = new.int(0)
 local menu = {
     u8'Troller',
-    u8'Tetetetete',
+    u8'Teleportes',
     u8'Veiculos',
     u8'Jogadores',
 }
