@@ -31,7 +31,7 @@ local menu = {
     u8'Troller',
     u8'Teleportes',
     u8'Veiculos',
-    u8'Jogadores',
+    u8'Jogadoressss',
 }
 
 function main()
